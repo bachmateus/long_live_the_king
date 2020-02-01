@@ -1,0 +1,11 @@
+C:\games_projects\long_live_the_king\long_live_the_king\obj\Debug\netcoreapp3.1\long_live_the_king.csprojAssemblyReference.cache
+C:\games_projects\long_live_the_king\long_live_the_king\obj\Debug\netcoreapp3.1\long_live_the_king.AssemblyInfoInputs.cache
+C:\games_projects\long_live_the_king\long_live_the_king\obj\Debug\netcoreapp3.1\long_live_the_king.AssemblyInfo.cs
+C:\games_projects\long_live_the_king\long_live_the_king\bin\Debug\netcoreapp3.1\long_live_the_king.exe
+C:\games_projects\long_live_the_king\long_live_the_king\bin\Debug\netcoreapp3.1\long_live_the_king.deps.json
+C:\games_projects\long_live_the_king\long_live_the_king\bin\Debug\netcoreapp3.1\long_live_the_king.runtimeconfig.json
+C:\games_projects\long_live_the_king\long_live_the_king\bin\Debug\netcoreapp3.1\long_live_the_king.runtimeconfig.dev.json
+C:\games_projects\long_live_the_king\long_live_the_king\bin\Debug\netcoreapp3.1\long_live_the_king.dll
+C:\games_projects\long_live_the_king\long_live_the_king\bin\Debug\netcoreapp3.1\long_live_the_king.pdb
+C:\games_projects\long_live_the_king\long_live_the_king\obj\Debug\netcoreapp3.1\long_live_the_king.dll
+C:\games_projects\long_live_the_king\long_live_the_king\obj\Debug\netcoreapp3.1\long_live_the_king.pdb

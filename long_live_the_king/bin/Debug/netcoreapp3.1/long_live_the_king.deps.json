@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "long_live_the_king/1.0.0": {
+        "runtime": {
+          "long_live_the_king.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "long_live_the_king/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
