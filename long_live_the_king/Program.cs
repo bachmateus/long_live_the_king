@@ -10,33 +10,49 @@ namespace long_live_the_king
             ConsoleKeyInfo input;
             bool gameRunning = true;
 
-            Character king = new Character();
+            CharacterFactory factory = new CharacterFactory();
+
+            AbstractCharacter king = factory.CreateCharacter(CharactersList.KingChar);
+
             Console.WriteLine("ArrowRight move, ArrowLeft stop, q quit");
             king.pull();
             Console.Write( king.speed);
 
             StateMoving moving = new StateMoving();
             StateStopped stopped = new StateStopped();
+            StateDead dead = new StateDead();
 
             while (gameRunning)
             {
                 input = Console.ReadKey();
-                
-                switch (input.Key)
+
+                if (king.isDead == false)
                 {
-                    case ConsoleKey.RightArrow:
-                        king.setState(moving);
-                        break;
-                    case ConsoleKey.LeftArrow:
-                        king.setState(stopped);
-                        break;
-                    case ConsoleKey.Q:
-                        king.setState(stopped);
-                        gameRunning = false;
-                        break;
-                }
-                // king.pull();
-                Console.Write( king.speed);
+
+                    switch (input.Key)
+                    {
+                        case ConsoleKey.RightArrow:
+                            king.setState(moving);
+                            break;
+                        case ConsoleKey.LeftArrow:
+                            king.setState(stopped);
+                            break;
+                        case ConsoleKey.DownArrow:
+                            king.setState(dead);
+                            gameRunning = false;
+
+                            Console.Write("You are Dead!");
+                            break;
+                        case ConsoleKey.Q:
+                            king.setState(stopped);
+                            gameRunning = false;
+                            
+                            Console.Write("You quited!");
+                            break;
+                    }
+                    
+                    Console.Write( king.speed);
+                } 
             }
 
             Console.WriteLine("End game");
